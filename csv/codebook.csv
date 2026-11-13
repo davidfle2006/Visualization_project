@@ -1,0 +1,22 @@
+field,case_id,note
+country_income_class_WB2010,,world bank group classification based on income per capita; 1=low income; 2=lower middle income; 3=upper middle income; 4=high income
+time,,exact time when available
+daytime,,1: twilight; 2: day; 3: night
+sex animal,,sex of the animal; 1: male; 2: female
+sex_human,,1: male; 2: female
+age animal,,age of the animal: either the numerical value or category: subadult/adult
+age_class,,adults (>=13); young (<13).
+hum_party_composition,,1= young person alone (<13); 2=adult person alone (>=13); 3= young person in a group of adults or young people; 4= adult person in a group of adults or young people
+conflict_end,,1= injury; 2= death
+scenario,,1 = defensive reaction by a female with offspring; 2 = animal and human/s involuntarily encounter at a close distance; 3_4 = food related: eg animal food conditioned/habituated or feeding on anthropogenic food (eg crop) or feeding on a wild or domestic animal carcass at the moment of the attack.; 5 = predatory/unprovoked/investigative attack; 6= animal wounded/trapped; 8= dog presence; 10_12= animal intentionally approached/provoked/chased attack the people involved or other people on its way while fleeing
+References/information sources,,Methods used for data collection and/or; bibliographical sources for the information provided
+species,265,"columns not to be combined, info extracted from papers and not one row=1 case. Only cases which contains exact time are one row one case"
+country,1285,Svalbard
+country,1291,Svalbard
+country,1292,Svalbard
+approx_latitude,1605,approx. coordinates
+region/administrative location,1752,"Village, Block, District and State/Province"
+year,4111,"List of Mountain Lion Attacks http://www.cougarinfo.org/attacks.htm; Colorado Division of Wildlife; Reported Lion Attacks on Humans, 1990 to present; human-lion contacts 042711.doc; Compiled as of 4/27/11"
+year,4151,Mountain Lion Attacks from 1991 to 2000 http://www.cougarinfo.org/attacks2.htm
+year,4233,Mountain Lion Attacks from 2011 to Now http://www.cougarinfo.org/attacks4.htm
+conflict_end,4854,"1 female killed, 1 male and 1 female injured"

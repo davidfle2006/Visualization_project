@@ -1,0 +1,10 @@
+# Python virtual environment (each teammate creates their own)
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# macOS folder metadata
+.DS_Store

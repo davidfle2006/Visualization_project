@@ -1,0 +1,11 @@
+field,type,definition,notes
+income_class_2010_label,Categorical,Readable label derived from the original country_income_class_WB2010 code.,2010 reference classification; low / lower-middle / upper-middle / high income.
+income_class_2010_s2,Categorical (coded),"Income class included in S2 Data, Figure 2.",Retained as supplied by the authors; numeric code 1–4.
+agricultural_land_pct,Numerical,Agricultural land as a percentage of land area.,"Year-specific contextual indicator from S2 Data, Figure 2."
+co2_emissions_tonnes_per_capita,Numerical,CO₂ emissions in metric tons per capita.,"Year-specific contextual indicator from S2 Data, Figure 2."
+forest_area_pct,Numerical,Forest area as a percentage of land area.,"Year-specific contextual indicator from S2 Data, Figure 2."
+internet_users_pct,Numerical,Individuals using the internet as a percentage of the population.,"Year-specific contextual indicator from S2 Data, Figure 2."
+reported_attacks_region_year_species,Numerical (count),"Number of attacks reported for the same region/country, year and species in S2 Data, Figure 2.",The S2 counts match the S1 incident-record counts for all 714 combinations represented in S2.
+reported_attacks_region_year,Numerical (count),"Sum of reported attacks across species for the same region/country and year in S2 Data, Figure 2.","A count within this compiled dataset, not a population-adjusted attack rate."
+context_data_year,Temporal,Year associated with the matched contextual indicators.,Only exact year matches are used; no interpolation or extrapolation.
+context_match_status,Categorical,Indicates whether an exact region/country + year match was found in S2 Figure 2.,"Missing context values are left blank, not set to zero."
